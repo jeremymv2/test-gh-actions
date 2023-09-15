@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
-          token: TOKEN
+          token: secrets.TOKEN
           version-file: VERSION
           release-type: go
           package-name: my-test-pkg
